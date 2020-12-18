@@ -15,7 +15,7 @@ ES_INDEX = 'photos'
 ES_TYPE = 'Photo'
 
 # use to test code pipeline
-
+# use to do demo!!!!!
 
 def lambda_handler(event, context):
     print('INPUT EVENT DATA: {}'.format(event))
