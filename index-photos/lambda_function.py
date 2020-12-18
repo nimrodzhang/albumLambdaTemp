@@ -14,6 +14,9 @@ ES_ENDPOINT = 'https://search-photos-tu6pms5iqais62nn2yd2jofypy.us-east-1.es.ama
 ES_INDEX = 'photos'
 ES_TYPE = 'Photo'
 
+# use to test code pipeline
+
+
 def lambda_handler(event, context):
     print('INPUT EVENT DATA: {}'.format(event))
 
